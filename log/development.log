@@ -1,0 +1,28 @@
+  [1m[35m (292.6ms)[0m  [1m[35mCREATE DATABASE "rails6web_development" ENCODING = 'unicode'[0m
+  [1m[35m (138.1ms)[0m  [1m[35mCREATE DATABASE "rails6web_test" ENCODING = 'unicode'[0m
+Started GET "/" for 127.0.0.1 at 2021-08-25 13:19:47 +0700
+Processing by StaticPagesController#landing_page as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (Duration: 1.6ms | Allocations: 462)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/baothi/rails6web/public/packs
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 4439ms
+Built at: 08/25/2021 1:19:56 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 8223.4ms | Allocations: 14911)
+Completed 200 OK in 8258ms (Views: 8232.6ms | ActiveRecord: 0.0ms | Allocations: 19477)
+
+
